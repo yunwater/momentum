@@ -1,0 +1,166 @@
+.hidden {
+  display: none;
+}
+
+@font-face {
+  font-family: "InfinitySans-RegularA1";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "InfinitySans-Bold", Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 850px;
+}
+
+#background-img {
+  position: absolute;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+
+.app-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#login-form input[type="text"] {
+  font-family: "InfinitySans-Bold", Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 12em;
+  height: 1.5em;
+  font-size: 2em;
+  border: 0;
+  background-color: white;
+  opacity: 50%;
+}
+
+#login-form input::placeholder {
+  text-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-family: "InfinitySans-Bold", Arial, Helvetica, sans-serif;
+}
+
+#login-form button {
+  display: none;
+  /* margin-top: 2em;
+  font-family: "InfinitySans-Bold", Arial, Helvetica, sans-serif;
+  width: 8em;
+  height: 2.2em;
+  background-color: white;
+  font-size: 1.3em;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+}
+
+#greeting {
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#todo-form input[type="text"] {
+  font-family: "InfinitySans-Bold", Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 15em;
+  height: 1.5em;
+  font-size: 1.3em;
+  border: 0;
+  border-bottom: 5px solid white;
+  color: white;
+  text-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  margin: 80px 0 10px 0;
+}
+
+#todo-form input::placeholder {
+  color: white;
+  text-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-family: "InfinitySans-Bold", Arial, Helvetica, sans-serif;
+}
+
+#todo-list {
+  font-family: "InfinitySans-Bold", Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  font-weight: bold;
+  list-style: square;
+  padding: 0;
+}
+
+#todo-list li {
+  padding: 0.2em;
+}
+
+#todo-list button {
+  background-color: white;
+  margin-left: 10px;
+  border: 0;
+  border-radius: 3px;
+  width: 2.2em;
+  height: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#clock {
+  color: white;
+  margin: 20px 0;
+  font-size: 8em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#quotes {
+  color: white;
+  text-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 45px 80px;
+  bottom: 1%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#quotes span:first-child {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+#quotes span:last-child {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+#weather {
+  color: white;
+  font-size: 1.3em;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
