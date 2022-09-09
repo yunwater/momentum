@@ -160,14 +160,25 @@ body {
 
   #weather {
     color: white;
-    font-size: 1.3em;
+    font-size: 1.2em;
     position: absolute;
     top: 5%;
     right: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #weather img {
+    height: 46px;
+  }
+
+  .weather_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    margin-left: 12px;
   }
 }
 
@@ -320,6 +331,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #weather img {
+    height: 30px;
+  }
+
+  .weather_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    margin-left: 12px;
   }
 }
